@@ -22,7 +22,7 @@ class Solution {
         for (int i = 0; i < n; i++) {
             numsArr[i] = nums[i];
         }
-
+        // 排列输入
         Arrays.sort(numsArr, (x, y) -> {
             long sx = 10, sy = 10;
             while (sx <= x) {
